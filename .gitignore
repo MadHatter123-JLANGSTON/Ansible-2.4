@@ -1,0 +1,9 @@
+*.retry
+# *.log
+# *.txt
+# *.xml
+# *.conf
+# *.diff
+# *.json
+
+

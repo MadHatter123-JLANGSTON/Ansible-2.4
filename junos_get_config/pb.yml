@@ -1,0 +1,5 @@
+---
+# This playbook includes other playbooks
+
+- include: pb_make_clean.yml
+- include: pb_junos_get_config.yml

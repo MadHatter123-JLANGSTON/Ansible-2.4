@@ -1,0 +1,10 @@
+---
+- name: install latest apache2 on localhost
+  hosts: localhost
+  sudo: yes
+  tasks:
+    - name: install latest apache2
+      apt: 
+        name: "apache2" 
+        update_cache: yes 
+        state: latest

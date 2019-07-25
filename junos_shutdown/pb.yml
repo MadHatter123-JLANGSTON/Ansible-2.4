@@ -1,0 +1,26 @@
+---
+ - name: reboot Junos devices
+   hosts: test
+   roles:       
+    - Juniper.junos
+   connection: local
+   gather_facts: no
+
+   vars_prompt:
+    - name: DEVICE_PASSWORD
+      prompt: Device password
+      private: yes
+    #- name: USERNAME
+    #  prompt: User name
+    #  private: no
+
+   tasks:
+
+   - name: junos_shutdown_task
+     junos_shutdown:
+      host: "{{ junos_host }}"
+      user: "{{ ADMUSER }}"
+      passwd: "{{ DEVICE_PASSWORD }}"
+      port: 830
+      shutdown: "shutdown"
+      reboot: yes

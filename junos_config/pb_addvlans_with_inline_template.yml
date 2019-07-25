@@ -1,0 +1,33 @@
+---
+- name: Change configuration using junos_config module
+  hosts: test
+  connection: local
+  gather_facts: no
+  vars_files:
+  - "vlans.yml"
+  
+  tasks:
+
+  - name: create vlans
+    tags: configuration
+    junos_config:
+      lines:
+        - "set vlans {{ item.name }} vlan-id {{ item.id }}"
+      comment: "create vlans from Ansible"
+      provider: "{{ credentials }}"
+      backup: yes
+    with_items: "{{ vlans }}"
+
+  - name: check vlan
+    tags: audit
+    junos_command:
+      provider: "{{  credentials }}"
+      commands:
+       - show vlans {{ item.name }}
+      display: 'xml' 
+      retries: 3
+      interval: 3
+      waitfor:
+       - "result[0]['rpc-reply']['vlan-information']['vlan']['vlan-name'] eq {{item.name }}"
+    with_items: "{{ vlans }}"
+    when: vlans is defined

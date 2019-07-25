@@ -1,0 +1,24 @@
+---
+ - name: pass junos set commands and then send a slack notification
+   hosts: test
+   connection: local
+   gather_facts: no
+
+   tasks:
+   - name: pass set and delete commands  
+     junos_config:
+      provider: "{{ credentials }}"
+      lines:
+       - set system host-name newname
+       - delete system login message banner
+      comment: lines configured by Ansible module junos_config
+
+   - name: Send Slack notification to the team
+     local_action:
+       module: slack
+       #http://docs.ansible.com/ansible/slack_module.html
+       username: "Ansible on {{ inventory_hostname }}"
+       channel: general       
+       token: XXXXXXXXXXXXXXXXXXXXXX
+       icon_url: "https://www.ansible.com/hs-fs/hub/330046/file-448313641-png/favicon.png"
+       msg: "configuration commited using pb.slack.yml"

@@ -1,0 +1,15 @@
+---
+ - name: configure netconf with ssh 
+   hosts: test
+   connection: local
+   gather_facts: no
+   
+   tasks:
+    - name: configure netconf on junos devices
+      junos_netconf: 
+       host: "{{ junos_host }}"
+       username: "{{ ADMUSER }}"
+       password: "{{ ADMPASS }}"
+       listens_on: 22
+       state: present
+  

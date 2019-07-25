@@ -1,0 +1,13 @@
+---
+ - name: rollback configuration on junos devices
+   hosts: test
+   connection: local
+   gather_facts: no
+
+   tasks:
+   - name: rollback
+     junos_config:
+      provider: "{{ credentials }}"
+      rollback: "{{ rbid }}"
+      backup: yes
+

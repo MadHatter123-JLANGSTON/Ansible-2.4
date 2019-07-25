@@ -1,0 +1,18 @@
+2018-01-23 03:34:22,907:CONFIG:172.30.179.107:connecting to host: pytraining@172.30.179.107:830
+2018-01-23 03:34:23,018:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.0)
+2018-01-23 03:34:23,353:ncclient.transport.ssh:Auth banner: new_banner
+
+2018-01-23 03:34:23,353:ncclient.transport.ssh:Authentication (publickey) failed.
+2018-01-23 03:34:23,481:ncclient.transport.ssh:Authentication (password) successful!
+2018-01-23 03:34:25,402:ncclient.transport.session:initialized: session-id=36689 | server_capabilities=<dictionary-keyiterator object at 0x7f46f592a890>
+2018-01-23 03:34:25,402:CONFIG:172.30.179.107:taking lock
+2018-01-23 03:34:25,403:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2018-01-23 03:34:25,573:CONFIG:172.30.179.107:Rolling back to: 1
+2018-01-23 03:34:25,573:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2018-01-23 03:34:25,844:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2018-01-23 03:34:26,116:CONFIG:172.30.179.107:committing change, please be patient
+2018-01-23 03:34:26,117:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2018-01-23 03:34:33,732:CONFIG:172.30.179.107:change completed
+2018-01-23 03:34:33,733:CONFIG:172.30.179.107:unlocking
+2018-01-23 03:34:33,733:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2018-01-23 03:34:33,903:ncclient.operations.rpc:Requesting 'CloseSession'

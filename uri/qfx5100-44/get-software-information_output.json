@@ -1,0 +1,233 @@
+{
+    "multi-routing-engine-results" : [
+    {
+        "multi-routing-engine-item" : [
+        {
+            "re-name" : [
+            {
+                "data" : "fpc0"
+            }
+            ], 
+            "software-information" : [
+            {
+                "host-name" : [
+                {
+                    "data" : "qfx5100-44"
+                }
+                ], 
+                "product-model" : [
+                {
+                    "data" : "qfx5100-48t-6q"
+                }
+                ], 
+                "product-name" : [
+                {
+                    "data" : "qfx5100-48t-6q"
+                }
+                ], 
+                "junos-version" : [
+                {
+                    "data" : "17.3R1.10"
+                }
+                ], 
+                "package-information" : [
+                {
+                    "name" : [
+                    {
+                        "data" : "junos"
+                    }
+                    ], 
+                    "comment" : [
+                    {
+                        "data" : "JUNOS Base OS boot [17.3R1.10]"
+                    }
+                    ]
+                }, 
+                {
+                    "name" : [
+                    {
+                        "data" : "jbase"
+                    }
+                    ], 
+                    "comment" : [
+                    {
+                        "data" : "JUNOS Base OS Software Suite [17.3R1.10]"
+                    }
+                    ]
+                }, 
+                {
+                    "name" : [
+                    {
+                        "data" : "jcrypto"
+                    }
+                    ], 
+                    "comment" : [
+                    {
+                        "data" : "JUNOS Crypto Software Suite [17.3R1.10]"
+                    }
+                    ]
+                }, 
+                {
+                    "name" : [
+                    {
+                        "data" : "jcrypto-qfx-5"
+                    }
+                    ], 
+                    "comment" : [
+                    {
+                        "data" : "JUNOS Crypto Software Suite [17.3R1.10]"
+                    }
+                    ]
+                }, 
+                {
+                    "name" : [
+                    {
+                        "data" : "jdocs"
+                    }
+                    ], 
+                    "comment" : [
+                    {
+                        "data" : "JUNOS Online Documentation [17.3R1.10]"
+                    }
+                    ]
+                }, 
+                {
+                    "name" : [
+                    {
+                        "data" : "jkernel"
+                    }
+                    ], 
+                    "comment" : [
+                    {
+                        "data" : "JUNOS Kernel Software Suite [17.3R1.10]"
+                    }
+                    ]
+                }, 
+                {
+                    "name" : [
+                    {
+                        "data" : "jpfe"
+                    }
+                    ], 
+                    "comment" : [
+                    {
+                        "data" : "JUNOS Packet Forwarding Engine Support (qfx-ex-x86-32) [17.3R1.10]"
+                    }
+                    ]
+                }, 
+                {
+                    "name" : [
+                    {
+                        "data" : "jroute"
+                    }
+                    ], 
+                    "comment" : [
+                    {
+                        "data" : "JUNOS Routing Software Suite [17.3R1.10]"
+                    }
+                    ]
+                }, 
+                {
+                    "name" : [
+                    {
+                        "data" : "jsd"
+                    }
+                    ], 
+                    "comment" : [
+                    {
+                        "data" : "JUNOS jsd [i386-17.3R1.10-jet-1]"
+                    }
+                    ]
+                }, 
+                {
+                    "name" : [
+                    {
+                        "data" : "jsdn-i386"
+                    }
+                    ], 
+                    "comment" : [
+                    {
+                        "data" : "JUNOS SDN Software Suite [17.3R1.10]"
+                    }
+                    ]
+                }, 
+                {
+                    "name" : [
+                    {
+                        "data" : "jswitch"
+                    }
+                    ], 
+                    "comment" : [
+                    {
+                        "data" : "JUNOS Enterprise Software Suite [17.3R1.10]"
+                    }
+                    ]
+                }, 
+                {
+                    "name" : [
+                    {
+                        "data" : "jweb-ex"
+                    }
+                    ], 
+                    "comment" : [
+                    {
+                        "data" : "JUNOS Web Management Platform Package [17.3R1.10]"
+                    }
+                    ]
+                }, 
+                {
+                    "name" : [
+                    {
+                        "data" : "py-base-i386"
+                    }
+                    ], 
+                    "comment" : [
+                    {
+                        "data" : "JUNOS py-base-i386 [17.3R1.10]"
+                    }
+                    ]
+                }, 
+                {
+                    "name" : [
+                    {
+                        "data" : "py-extensions-i386"
+                    }
+                    ], 
+                    "comment" : [
+                    {
+                        "data" : "JUNOS py-extensions-i386 [17.3R1.10]"
+                    }
+                    ]
+                }, 
+                {
+                    "name" : [
+                    {
+                        "data" : "jais"
+                    }
+                    ], 
+                    "comment" : [
+                    {
+                        "data" : "AI-Scripts [7.0R1.0]"
+                    }
+                    ]
+                }, 
+                {
+                    "name" : [
+                    {
+                        "data" : "JUNOS Host Software"
+                    }
+                    ], 
+                    "comment" : [
+                    {
+                        "data" : "JUNOS Host Software [17.3R1.10]"
+                    }
+                    ]
+                }
+                ]
+            }
+            ]
+        }
+        ]
+    }
+    ]
+}
