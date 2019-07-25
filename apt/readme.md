@@ -4,7 +4,7 @@ it manages packages on ubuntu: you can use it to install/remove packages on ubun
 it is idempotent.  
 
 ```
-# ansible-playbook apt/pb.yml -u ksator --ask-sudo-pass --check --diff
+# ansible-playbook apt/pb.yml -u jlangston --ask-sudo-pass --check --diff
 SUDO password: 
 
 PLAY [install latest apache2 on localhost] *******************************************************************************************************************************
