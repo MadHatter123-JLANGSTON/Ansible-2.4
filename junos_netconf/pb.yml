@@ -8,8 +8,6 @@
     - name: configure netconf on junos devices
       junos_netconf: 
        host: "{{ junos_host }}"
-       username: "{{ ADMUSER }}"
-       password: "{{ ADMPASS }}"
        listens_on: 22
        state: present
   
